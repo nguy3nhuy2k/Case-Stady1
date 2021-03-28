@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đuổi Hình Bắt Chữ</title>
+
+</head>
+<body>
+<div id="main" align="center">
+<h2 id="h2"> Đuổi hình bắt chữ </h2>
+<span id="start"><button onclick="start();">Bắt đầu</button><br></span>
+
+    <span style="display: none" id="serial"></span><br>
+    <img style="display: none" id="image" width="556" height="380" src="">
+    <br>
+    <span id="showscores">Bạn đang có <span id="scores">0</span>/10 điểm</span>
+    <br>
+    Nhập đáp án: <span id="suggestion"></span><br>
+    <input onchange="check()" onclick="turnOffNofication()" id="answer" type="text">
+    <button onclick="check()" type="submit">Xác nhận đáp án</button>
+    <span id="nofication"></span><br><br>
+    <button onclick="previous()">Quay Lại</button>
+    <button onclick="next()">Tiếp theo</button>
+    <button onclick="suggest()">Gợi ý</button>
+    <button onclick="showTheChosen()">Đáp án</button>
+    <br><br>
+    <button onclick="reset()">Chơi lại</button>
+</div>
+<script src="JS%20files/manager.js"></script>
+<script src="JS%20files/setting.js"></script>
+</body>
+</html>
