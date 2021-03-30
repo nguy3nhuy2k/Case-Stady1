@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b694ddf-8140-4e15-a357-ded9acf1e03c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BrickGame/BrickShoot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BrickGame/Setting.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Canvas/Circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS files/css.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phoneOOP/FlassLamp.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phoneOOP/person.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phoneOOP/sendmess.html" afterDir="false" />
@@ -13,6 +16,11 @@
       <change afterPath="$PROJECT_DIR$/../untitled/Class/Date.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/hàm/ud.quanlisanpham/ungdung_qlsp.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/vecanvas/vecanvas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JS files/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setting.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,6 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BrickGame" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -49,6 +58,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,29 +84,13 @@
       <workItem from="1584082150148" duration="189000" />
       <workItem from="1584082488714" duration="78000" />
       <workItem from="1584082675934" duration="3571000" />
-      <workItem from="1616942548672" duration="610000" />
+      <workItem from="1616942548672" duration="1829000" />
+      <workItem from="1616981070749" duration="1311000" />
+      <workItem from="1617065716597" duration="2421000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="369" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583783895097">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="369" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1583783895097" />
-    <state x="425" y="148" key="SettingsEditor" timestamp="1583783928660">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="425" y="148" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1583783928660" />
-    <state x="443" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1584082681048">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="443" y="267" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1584082681048" />
-    <state x="450" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1583802638508">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="450" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1583802638508" />
   </component>
 </project>

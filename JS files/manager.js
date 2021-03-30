@@ -1,6 +1,6 @@
 
 function setUp() {
-    originlist=['aimo','aomua','bikich','dauthu','homcongduc','kiemchuyen','mahoa','nhaccu','nhanduc','sotroi'];
+    listQuitz=['aimo','aomua','bikich','dauthu','homcongduc','kiemchuyen','mahoa','nhaccu','nhanduc','sotroi'];
     chosenlist=[];
     rightanswerlist=[];
     round=0;
@@ -18,9 +18,9 @@ function refresh() {
 }
 
 function choosenew() {
-    i=Math.round(Math.random()*(originlist.length-1));
-    chosen=originlist[i];
-    originlist.splice(i,1);
+    i=Math.round(Math.random()*(listQuitz.length-1));
+    chosen=listQuitz[i];
+    listQuitz.splice(i,1);
     chosenlist.push(chosen);
     document.getElementById('serial').innerHTML = 'Câu số ' + ++round;
     refresh()
@@ -64,7 +64,6 @@ function check() {
                 if(rightanswerlist.length>9){
                     setTimeout(function () {
                         if(confirm('Bạn đã phá đảo ')){
-                            nextlevel()
                         }
                     },1000)
                 }
@@ -79,7 +78,7 @@ function showTheChosen() {
 }
 function next() {
    switch (iteration.length===0) {
-       case true:if (originlist.length>0){
+       case true:if (listQuitz.length>0){
            choosenew()
        }
        break;
